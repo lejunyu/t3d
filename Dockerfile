@@ -6,6 +6,7 @@ FROM alpine:3.20 AS build
 # the base OS headers and libraries.
 RUN apk update && \
     apk add \
+        bash \
         build-base \
         cmake \
         curl \
@@ -16,6 +17,7 @@ RUN apk update && \
         linux-headers \
         ninja \
         pkgconfig \
+        perl \
         tar \
         unzip \
         zip

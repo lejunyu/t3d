@@ -7,6 +7,16 @@
   packages = [
     pkgs.docker
     pkgs.docker-compose
+    pkgs.gcc
+    pkgs.zip
+    pkgs.gnumake
+    pkgs.cmake
+    pkgs.perl
+    pkgs.inetutils
+    pkgs.pkg-config
+    pkgs.vcpkg
+    pkgs.jsoncpp
+    pkgs.drogon
   ];
   # Enable Docker
   services.docker = {
@@ -19,6 +29,7 @@
     extensions = [
       "vscjava.vscode-java-pack"
       "google.gemini-cli-vscode-ide-companion"
+      "ms-vscode.makefile-tools"
     ];
   };
 }
