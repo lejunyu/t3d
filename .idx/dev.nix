@@ -26,8 +26,8 @@
   env = {};
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
+    # "vscjava.vscode-java-pack"
     extensions = [
-      "vscjava.vscode-java-pack"
       "google.gemini-cli-vscode-ide-companion"
       "ms-vscode.makefile-tools"
     ];
